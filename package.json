@@ -1,0 +1,30 @@
+{
+  "name": "sjcl-hash-sha256",
+  "version": "0.0.0",
+  "description": "a modular fork of the sjcl.hash.sha256 namespace",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/sjcl-hash-sha256"
+  },
+  "keywords": [
+    "sjcl.hash.sha256"
+  ],
+  "author": "Emily Stark; Mike Hamburg; Dan Boneh",
+  "license": "BSD or GPL 2.0",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/sjcl-hash-sha256/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/sjcl-hash-sha256",
+  "devDependencies": {
+    "sjcl-codec-hex": "~1.0.0",
+    "tape": "~4.4.0"
+  },
+  "dependencies": {
+    "sjcl-bit-array": "~1.0.0",
+    "sjcl-codec-utf8-string": "~1.0.0"
+  }
+}
