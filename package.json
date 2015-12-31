@@ -1,6 +1,6 @@
 {
   "name": "sjcl-hash-sha256",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a modular fork of the sjcl.hash.sha256 namespace",
   "main": "index.js",
   "scripts": {
